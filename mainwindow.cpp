@@ -1,6 +1,8 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include "iostream"
+#include <QString>
+#include "cmath"
 
 
 MainWindow::MainWindow(QWidget *parent) :
@@ -166,4 +168,16 @@ void MainWindow::on_setchange_clicked()
 {
     spin_value=ui->spinBox->value();
     lcdNumber_setChange();
+}
+
+void MainWindow::on_textBrowser_textChanged()
+{
+    int fun;
+    QString f;
+    for(int i=0;i<=spin_value;i++)
+        fun+=pow(slyder_value[i],i);
+    f=QString("%1^0+%2^1+%3^2+%4^3+%5^4+%6^5+%7^6+%8^7=%9").arg(slyder_value[0]).arg(slyder_value[1]).arg(slyder_value[2]).
+            arg(slyder_value[3]).arg(slyder_value[4]).arg(slyder_value[5]).arg(slyder_value[6]).arg(slyder_value[7]).arg(fun);
+    std::cout<<f.toStdString()<<std::endl;
+    //ui->textBrowser->setText();
 }

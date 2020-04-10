@@ -30,6 +30,8 @@ private slots:
     void cpy_lcdSlider_value();
     void on_setchange_clicked();
 
+    void on_textBrowser_textChanged();
+
 private:
     Ui::MainWindow *ui;
     int spin_value;
