@@ -147,6 +147,7 @@ void MainWindow::cpy_lcdSlider_value()
     {
         slyder_value[i]=0;
     }
+    ui->verticalSlider_0->d
 }
 
 

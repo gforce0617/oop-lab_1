@@ -323,6 +323,9 @@
     </property>
    </widget>
    <widget class="QLCDNumber" name="lcdNumber_0">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>40</x>

@@ -27,7 +27,7 @@ private slots:
 
     void on_slider_button_clicked();
     void lcdNumber_setChange();
-    void lcdSlider_setChange();
+    void cpy_lcdSlider_value();
     void on_setchange_clicked();
 
 private:
