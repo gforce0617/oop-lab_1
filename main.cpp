@@ -1,5 +1,6 @@
 #include "mainwindow.h"
 #include <QApplication>
+#include <iostream>
 
 int main(int argc, char *argv[])
 {
@@ -7,13 +8,5 @@ int main(int argc, char *argv[])
     MainWindow w;
     w.show();
 
-    int value;
-    while(true)
-    {
-        value=w.spinbox_value();
-        w.lcdNumber_setChange(value);
-
-
-    }
     return a.exec();
 }

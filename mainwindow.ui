@@ -14,7 +14,7 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QSlider" name="verticalSlider">
+   <widget class="QSlider" name="verticalSlider_0">
     <property name="geometry">
      <rect>
       <x>70</x>
@@ -27,7 +27,7 @@
      <enum>Qt::Vertical</enum>
     </property>
    </widget>
-   <widget class="QSlider" name="verticalSlider_2">
+   <widget class="QSlider" name="verticalSlider_1">
     <property name="geometry">
      <rect>
       <x>150</x>
@@ -40,7 +40,7 @@
      <enum>Qt::Vertical</enum>
     </property>
    </widget>
-   <widget class="QSlider" name="verticalSlider_3">
+   <widget class="QSlider" name="verticalSlider_2">
     <property name="geometry">
      <rect>
       <x>230</x>
@@ -53,7 +53,7 @@
      <enum>Qt::Vertical</enum>
     </property>
    </widget>
-   <widget class="QSlider" name="verticalSlider_4">
+   <widget class="QSlider" name="verticalSlider_3">
     <property name="geometry">
      <rect>
       <x>310</x>
@@ -76,7 +76,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QSlider" name="verticalSlider_5">
+   <widget class="QSlider" name="verticalSlider_4">
     <property name="geometry">
      <rect>
       <x>390</x>
@@ -89,7 +89,7 @@
      <enum>Qt::Vertical</enum>
     </property>
    </widget>
-   <widget class="QSlider" name="verticalSlider_6">
+   <widget class="QSlider" name="verticalSlider_5">
     <property name="geometry">
      <rect>
       <x>470</x>
@@ -102,7 +102,7 @@
      <enum>Qt::Vertical</enum>
     </property>
    </widget>
-   <widget class="QSlider" name="verticalSlider_7">
+   <widget class="QSlider" name="verticalSlider_6">
     <property name="geometry">
      <rect>
       <x>550</x>
@@ -115,7 +115,7 @@
      <enum>Qt::Vertical</enum>
     </property>
    </widget>
-   <widget class="QSlider" name="verticalSlider_8">
+   <widget class="QSlider" name="verticalSlider_7">
     <property name="geometry">
      <rect>
       <x>630</x>
@@ -322,7 +322,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLCDNumber" name="lcdNumber__0">
+   <widget class="QLCDNumber" name="lcdNumber_0">
     <property name="geometry">
      <rect>
       <x>40</x>
@@ -332,7 +332,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLCDNumber" name="lcdNumber__1">
+   <widget class="QLCDNumber" name="lcdNumber_1">
     <property name="geometry">
      <rect>
       <x>120</x>
@@ -342,7 +342,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLCDNumber" name="lcdNumber__2">
+   <widget class="QLCDNumber" name="lcdNumber_2">
     <property name="geometry">
      <rect>
       <x>200</x>
@@ -352,7 +352,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLCDNumber" name="lcdNumber__3">
+   <widget class="QLCDNumber" name="lcdNumber_3">
     <property name="geometry">
      <rect>
       <x>280</x>
@@ -362,7 +362,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLCDNumber" name="lcdNumber__4">
+   <widget class="QLCDNumber" name="lcdNumber_4">
     <property name="geometry">
      <rect>
       <x>360</x>
@@ -372,7 +372,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLCDNumber" name="lcdNumber__5">
+   <widget class="QLCDNumber" name="lcdNumber_5">
     <property name="geometry">
      <rect>
       <x>440</x>
@@ -382,7 +382,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLCDNumber" name="lcdNumber__6">
+   <widget class="QLCDNumber" name="lcdNumber_6">
     <property name="geometry">
      <rect>
       <x>520</x>
@@ -392,7 +392,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLCDNumber" name="lcdNumber__7">
+   <widget class="QLCDNumber" name="lcdNumber_7">
     <property name="geometry">
      <rect>
       <x>600</x>
@@ -402,14 +402,30 @@
      </rect>
     </property>
    </widget>
-   <widget class="QTextBrowser" name="textBrowser">
+   <widget class="QPushButton" name="setchange">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>90</y>
-      <width>256</width>
-      <height>192</height>
+      <x>40</x>
+      <y>100</y>
+      <width>111</width>
+      <height>23</height>
      </rect>
+    </property>
+    <property name="text">
+     <string>set spinbox value</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="slider_button">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>140</y>
+      <width>111</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>set slider value</string>
     </property>
    </widget>
   </widget>
